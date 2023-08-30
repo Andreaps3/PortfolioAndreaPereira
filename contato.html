@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <title>Portfolio</title> 
+    <link rel="stylesheet" href="./style/style.css">   
     <link rel="stylesheet" href="./style/stylecontato.css">
 </head>
 
@@ -22,24 +22,22 @@
         <section class="apresentacao__conteudo">
             <h2 class="apresentacao_conteudo_titulo">Contato</h2>
 
-            <form action="https://formsubmit.co/andrea.ps03@gmail.com" method="POST" class="cadastroContato">
-               <fieldset>
-            <div>
-                <label for="nome">Nome:</label>
+            <form action="https://formsubmit.co/andrea.ps03@gmail.com" method="POST" data-form>
+               
+          
+                <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome" required placeholder="Informe seu nome">
-                <label for="e-mail">E-mail:</label>
-                <input type="email" name="email" id="e-mail" required placeholder="Digite seu e-mail aqui Exe: contato@email.com">
-            </div>
-
-            <div>
-                <label for="mensagem"> Mensagem:</label>
-                <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Deixe sua mensagem"></textarea>
-            </div>
+                <label for="e-mail">E-mail</label>
+                <input type="email" name="email" id="e-mail" required placeholder="Digite seu e-mail aqui Exe: contato@email.com">        
+        
+                <label for="mensagem"> Mensagem</label>
+                <textarea name="message" id="mensagem" required placeholder="Deixe sua mensagem"></textarea>
+         
 
                 <input type="hidden" name="_next" value="https://projeto-final-ten.vercel.app/email-enviado.html">
-                <button type="submit" class="toca_som">Enviar</button>
+                <button type="submit" data-button>Enviar</button>
 
-            </fieldset>
+            
             </form>
         </section>
         <img class="apresentacao__imagem" src="./assets/andreaSantos.jpg" alt="Foto da Andrea Santos">

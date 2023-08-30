@@ -2,10 +2,10 @@
 
 :root{
 
-    --cor-primaria:#0C356A;
-    --cor-secundaria: hsl(114, 100%, 91%);
-    --cor-terciaria: #40F8FF;
-    --cor-quaternaria: #279EFF;
+    --cor-primaria:#002B5B;
+    --cor-secundaria: #159895;
+    --cor-terciaria: #1A5F7A;
+    --cor-quaternaria: #57C5B6;
 
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -21,14 +21,13 @@
 
 body {
 
-    background: linear-gradient(0deg, #C6C6C6, #C6C6C6),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+   
    /* height: 100vh;*/
     /*box-sizing: border-box;*/
    
-    /*background-color: var(--cor-primaria); /*mudando a cor da página*/
-   /* color: var(--cor-secundaria);/*mudando a cor do text*/
-   background-color: #0C356A;
+   background-color: var(--cor-primaria);
+   color: var(--cor-quaternaria);
+   
    background-image: url('assets/corFundo.png')
 
 }
@@ -68,7 +67,7 @@ body {
 
 .apresentacao_conteudo_titulo{
     font-size: 2.25rem;
-    font-family: var(--fonte-primaria);
+    font-family: var(--cor-primaria);
 }
 
 .titulo-destaque { /*o ponto serve  para indicar para o css que se trata de um classe*/
@@ -89,7 +88,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: var(--fonte-primaria);
+    font-family: var(--cor-primaria);
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -120,7 +119,7 @@ body {
     /*width: 50%;*/
     width: 486px;
     height: 550px;
-    top: 255px;
+    top: 200px;
     left: 1080px;
     border-radius: 32px;
 
@@ -141,7 +140,7 @@ body {
 
 
 .rodape {
-    padding: 20px;
+    padding: 16px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center ;
